@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+    background-color: rgb(48, 50, 88);
+}
+
+.mountain {
+    display: flex;
+    left: 0%;
+    height: 0px;
+    width: 0px;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 300px solid #723d22;
+    flex: 2;
+}
+.flex-row{
+    display: flex;
+    margin-top: 1.5%;
+    border: 1px;
+    row-gap: 5px;
+    position: absolute;
+    left: 0%;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    border-bottom: 30px solid rgb(166, 157, 137);
+    border-radius: 100%;
+    rotate: 60deg;
+    margin-left: 300px;
+}
+.sea {
+    border-left: 0px solid transparent;
+    border-right: 170px solid rgb(11, 62, 11);
+    border-bottom: 224px solid #296399;
+    border-top: 50px solid #296399;
+    width: 300px;
+    margin-top: 13.7%;
+}
+.ground {
+    height: 324px;
+    width: 100%;
+    margin-top: 13.7%;
+    background-color: rgb(11, 62, 11);
+}
+.seaXground {
+    display: flex;
+}
+.bote {
+    border-left: 40px solid #296399;
+    border-right: 40px solid #296399;
+    border-top: 50px solid brown;
+    
+}
+.house {
+    height: 100px;
+    width: 150px;
+    margin-left: 200px;
+    background-color: orange;
+}
+.cap {
+    border-left: 40px solid rgb(11, 62, 11);
+    border-right: 40px solid rgb(11, 62, 11);
+    border-bottom: 50px solid brown;
+    margin-left: 160px;
+    width: 150px;
+}
+.capXhouse {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
